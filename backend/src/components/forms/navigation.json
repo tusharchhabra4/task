@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_forms_navigations",
+  "info": {
+    "displayName": "navigation"
+  },
+  "options": {},
+  "attributes": {
+    "previousText": {
+      "type": "string"
+    },
+    "nextText": {
+      "type": "string"
+    },
+    "confirmText": {
+      "type": "string"
+    },
+    "changeText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

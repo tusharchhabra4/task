@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_forms_personal_steps",
+  "info": {
+    "displayName": "PersonalStep"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "component",
+      "component": "forms.field",
+      "repeatable": true
+    },
+    "sidebarTitle": {
+      "type": "string"
+    },
+    "stepNumber": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

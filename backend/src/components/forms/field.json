@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_forms_fields",
+  "info": {
+    "displayName": "Field"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "radio",
+        "checkbox",
+        "select",
+        "toggle",
+        "hidden",
+        "text",
+        "email",
+        "phone",
+        "number",
+        "textarea"
+      ]
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "minLength": {
+      "type": "integer"
+    },
+    "maxLength": {
+      "type": "integer"
+    },
+    "pattern": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

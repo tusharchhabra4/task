@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_forms_addons",
+  "info": {
+    "displayName": "Addon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "MonthlyPrice": {
+      "type": "integer"
+    },
+    "YearlyPrice": {
+      "type": "integer"
+    },
+    "Order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

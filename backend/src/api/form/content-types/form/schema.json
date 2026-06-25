@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "sidebarimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "billing": {
+      "type": "boolean"
+    },
+    "success": {
+      "type": "component",
+      "component": "forms.success",
+      "repeatable": false
+    },
+    "steps": {
+      "type": "dynamiczone",
+      "components": [
+        "forms.summary-step",
+        "forms.plan-step",
+        "forms.personal-step",
+        "forms.addon-step"
+      ]
+    },
+    "monthlyLabel": {
+      "type": "string"
+    },
+    "yearlyLabel": {
+      "type": "string"
+    },
+    "monthlyPriceSuffix": {
+      "type": "string"
+    },
+    "yearlyPriceSuffix": {
+      "type": "string"
+    },
+    "monthlySuffix": {
+      "type": "string"
+    },
+    "yearlySuffix": {
+      "type": "string"
+    },
+    "navigation": {
+      "type": "component",
+      "component": "forms.navigation",
+      "repeatable": false
+    },
+    "totalLabel": {
+      "type": "string"
+    }
+  }
+}

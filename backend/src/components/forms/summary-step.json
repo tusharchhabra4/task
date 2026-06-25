@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_forms_summary_steps",
+  "info": {
+    "displayName": "SummaryStep"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "sidebarTitle": {
+      "type": "string"
+    },
+    "stepNumber": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

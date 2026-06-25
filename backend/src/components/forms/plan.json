@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_forms_plans",
+  "info": {
+    "displayName": "Plan"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MonthlyPrice": {
+      "type": "integer"
+    },
+    "YearlyPrice": {
+      "type": "integer"
+    },
+    "Order": {
+      "type": "integer"
+    },
+    "OfferText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

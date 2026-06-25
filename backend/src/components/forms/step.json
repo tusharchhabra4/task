@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_forms_steps",
+  "info": {
+    "displayName": "Step"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "stepNumber": {
+      "type": "integer"
+    },
+    "stepType": {
+      "type": "enumeration",
+      "enum": [
+        "form",
+        "plans",
+        "addons",
+        "summary"
+      ]
+    },
+    "fields": {
+      "type": "component",
+      "component": "forms.field",
+      "repeatable": true
+    },
+    "nextButtonText": {
+      "type": "string"
+    },
+    "previousButtonText": {
+      "type": "string"
+    },
+    "showPreviousButton": {
+      "type": "boolean"
+    },
+    "showNextButton": {
+      "type": "boolean"
+    },
+    "plans": {
+      "type": "component",
+      "component": "forms.plan",
+      "repeatable": true
+    },
+    "addons": {
+      "type": "component",
+      "component": "forms.addon",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

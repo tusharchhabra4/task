@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_forms_addon_steps",
+  "info": {
+    "displayName": "AddonStep"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "addons": {
+      "type": "component",
+      "component": "forms.addon",
+      "repeatable": true
+    },
+    "sidebarTitle": {
+      "type": "string"
+    },
+    "stepNumber": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
