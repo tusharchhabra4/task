@@ -70,6 +70,16 @@
     },
     "totalLabel": {
       "type": "string"
+    },
+    "sidebarimage2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

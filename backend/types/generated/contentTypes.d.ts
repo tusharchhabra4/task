@@ -636,6 +636,9 @@ export interface ApiFormForm extends Struct.CollectionTypeSchema {
     sidebarimage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
+    sidebarimage2: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     slug: Schema.Attribute.UID<'title'>;
     steps: Schema.Attribute.DynamicZone<
       [

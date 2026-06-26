@@ -16,6 +16,9 @@
     },
     "stepNumber": {
       "type": "string"
+    },
+    "stepLabel": {
+      "type": "string"
     }
   },
   "config": {}

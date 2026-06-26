@@ -22,6 +22,7 @@ export interface FormsAddonStep extends Struct.ComponentSchema {
   attributes: {
     addons: Schema.Attribute.Component<'forms.addon', true>;
     sidebarTitle: Schema.Attribute.String;
+    stepLabel: Schema.Attribute.String;
     stepNumber: Schema.Attribute.String;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -80,6 +81,7 @@ export interface FormsPersonalStep extends Struct.ComponentSchema {
   attributes: {
     fields: Schema.Attribute.Component<'forms.field', true>;
     sidebarTitle: Schema.Attribute.String;
+    stepLabel: Schema.Attribute.String;
     stepNumber: Schema.Attribute.String;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -110,6 +112,7 @@ export interface FormsPlanStep extends Struct.ComponentSchema {
     plans: Schema.Attribute.Component<'forms.plan', true>;
     showBillingToggle: Schema.Attribute.Boolean;
     sidebarTitle: Schema.Attribute.String;
+    stepLabel: Schema.Attribute.String;
     stepNumber: Schema.Attribute.String;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -157,6 +160,7 @@ export interface FormsSummaryStep extends Struct.ComponentSchema {
   };
   attributes: {
     sidebarTitle: Schema.Attribute.String;
+    stepLabel: Schema.Attribute.String;
     stepNumber: Schema.Attribute.String;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
