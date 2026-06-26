@@ -56,12 +56,7 @@ function FormContent({ form }) {
   />
 )}
 
-            {/* Step 5 */}
-            {currentStep === 5 && (
-              <div className="mt-10 text-center text-slate-500">
-                Success Step Coming Next...
-              </div>
-            )}
+            
           </div>
         </div>
       </section>
